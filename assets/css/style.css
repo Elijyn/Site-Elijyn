@@ -1,0 +1,558 @@
+body
+{
+	overflow-x: hidden;
+}
+
+h1
+{
+	font-size: 30px !important; 
+	text-align: center;
+	font-family: cursive;
+}
+
+h2
+{
+	color: white;
+	font-size: 25px !important; 
+	text-align: center;
+	font-family: cursive;
+}
+
+.acceuil
+{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+}
+
+.logo-acceuil
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	animation: pulse 1s;
+}
+
+.index-header
+{
+	background-color: white;
+	top: 0px;
+	padding: 1vh;
+}
+
+.title
+{ 
+	font-size: 50px !important;
+	color: black;
+	margin-top: 5%;
+}
+
+li
+{
+	display: inline;
+}
+
+a
+{
+	font-family: cursive;
+}
+
+.other-header
+{
+	background-color: black;
+	top: 0px;
+	padding: 1vh;
+}
+
+.other-header a
+{
+	color: white;
+}
+
+.transit
+{
+	background: linear-gradient(black, white);
+	width: 100vw;
+	height: 10vh;
+	margin-bottom: 20px;
+}
+
+.jeux
+{
+	width: 100vw;
+}
+
+.choixjeu
+{
+	overflow: hidden;
+}
+
+.imgjeu
+{
+	width: 100%;
+	height: auto;
+	filter: grayscale(100%);
+	object-fit: cover;
+	object-position: center;
+	-webkit-transition: 0.8s ease-in-out;
+	transition: 0.8s ease-in-out;
+}
+
+.imgjeu:hover
+{
+	filter: none;
+	width:100%;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.3);
+	-webkit-transition: 0.8s ease-in-out;
+	transition: 0.8s ease-in-out;
+}
+
+.logo-rank
+{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rank-rl
+{
+	width: 350px;
+}
+
+.rank-valo
+{
+	width: 250px;
+	height: 250px;
+}
+
+.logo-mid
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-akali
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-ahri
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-qiyi
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-vandal
+{
+	width: 150%;
+	height: 150%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transform: rotate(45deg);
+}
+
+#logo-omen
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-cypher
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-fade
+{
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#car1
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#car2
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#car3
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#car4
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mastery
+{
+	font-family: fantasy;
+	color: black;
+	text-align: center;
+	font-size: 200%;
+}
+
+.role
+{
+	font-family: fantasy;
+	color: black;
+	text-align: center;
+	font-size: 200%;
+}
+
+.intro
+{
+	font-family: cursive;
+	display: block;
+	text-align: justify;
+	font-size: 150%;
+}
+
+#LoLinfo
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image: url("../../assets/images/faille.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#LoLinfo p, #valorantinfo p, #RLinfo p
+{
+	color: white;
+}
+
+#valorantinfo
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image: url("../../assets/images/valorant-full.jpeg");
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#RLinfo
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-image: url("../../assets/images/RL-full.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#akaliinfo
+{
+	width: 90vw;
+	height: 90vh;
+	background-color: black;
+	position: sticky;
+	margin-top: -95vh;
+	left: 5vw;
+	display: none;
+	box-shadow: black 20px 20px 20px;
+}
+
+.akalifull
+{
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.stats h1
+{
+	color: white;
+	text-align: center;
+}
+
+.stats p
+{
+	color: white;
+}
+
+.stats .progress
+{
+	background-color: darkgrey;
+	width: 70%;
+	height: 15px;
+	border-radius: 15px;
+}
+
+.progress-done1, .progress-done2, .progress-done3, .progress-done4, .progress-done5, .progress-done6, .progress-done7, .progress-done8, .progress-done9, .progress-done10, .progress-done11,
+.progress-done12
+{
+	background-color: white;
+	height: 100%;
+	border-radius: 15px;
+}
+
+.progress-done1
+{
+	width: 80%;
+}
+
+.progress-done2
+{
+	width: 90%;
+}
+
+.progress-done3
+{
+	width: 70%;
+}
+
+.progress-done4
+{
+	width: 75%;
+}
+
+.progress-done5
+{
+	width: 40%;
+}
+
+.progress-done6
+{
+	width: 80%;
+}
+
+.progress-done7
+{
+	width: 70%;
+}
+
+.progress-done8
+{
+	width: 80%;
+}
+
+.progress-done9
+{
+	width: 20%;
+}
+
+.progress-done10
+{
+	width: 60%;
+}
+
+.progress-done11
+{
+	width: 60%;
+}
+
+.progress-done12
+{
+	width: 70%;
+}
+
+
+.info-stat
+{
+	width: 80%;
+	margin-left: auto;
+}
+
+.bi-x
+{
+	color: white;
+	position: absolute;
+    top: 3%;
+    left: 95%;
+    transition: 0.5s;
+}
+
+.bi-x:hover
+{
+	color: red;
+	transition: 0.5s;
+}
+
+#ahriinfo
+{
+	width: 90vw;
+	height: 90vh;
+	background-color: black;
+	position: sticky;
+	margin-top: -95vh;
+	left: 5vw;
+	display: none;
+	box-shadow: black 20px 20px 20px;
+}
+
+.ahrifull
+{
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#qiyanainfo
+{
+	width: 90vw;
+	height: 90vh;
+	background-color: black;
+	position: sticky;
+	margin-top: -95vh;
+	left: 5vw;
+	display: none;
+	box-shadow: black 20px 20px 20px;
+}
+
+.qiyanafull
+{
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#vandalinfo
+{
+	width: 90vw;
+	height: 90vh;
+	position: sticky;
+	margin-top: -95vh;
+	left: 5vw;
+	display: none;
+	box-shadow: black 20px 20px 20px;
+}
+
+.vandalfull
+{
+	width: 100%;
+	height: 90%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.socials
+{
+	width: 100%;
+	height: 100%;
+}
+
+.bi-tiktok, .bi-twitter-x, .bi-discord
+{
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about 
+{
+	height: 80vh;
+}
+
+/**Passage en version mobile**/
+
+@media screen and (max-width: 600px) {
+  
+  	#LoLinfo
+	{
+		height: 1080px;
+	}
+
+	#valorantinfo
+	{
+		height: 1080px;
+	}
+
+	#RLinfo
+	{
+		
+		height: 1080px;
+	}
+
+	.bi-x
+	{
+	    left: 80%;	    
+	}
+
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+        <title>Elijyn - Home</title>
+    </head>
+    <body>
+        <div class="">
+            <div class="acceuil w-full">
+                <header class="sticky flex justify-center index-header">
+                    <ul>
+                        <li class="px-10"><a href="index.html">Home</a></li>
+                        <li class="px-10"><a href="news.html">News</a></li>
+                        <li class="px-10"><a href="about.html">About</a></li>
+                    </ul>
+                </header>
+                <div class="">
+                    <img class="logo-acceuil" src="assets/images/Logo_Elijyn.png" alt="Mon logo" />
+                </div>
+            </div>
+        
+        <div class="transit">
+            
+        </div>
+        <div class="jeux">
+            <h1>Jeux</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="choixjeu" id="imgLoL">
+                    <img class="imgjeu" src="assets/images/LoL.jpg" alt="League of legends" />
+                </div>
+                <div class="choixjeu" id="imgValo">
+                    <img class="imgjeu" src="assets/images/Valorant.jpg" alt="Valorant" />
+                </div>
+                <div class="choixjeu" id="imgRL">
+                    <img class="imgjeu" src="assets/images/RL.jpg" alt="Rocket league" />
+                </div>
+            </div>
+        </div>
+        <div class="content-center" id="LoLinfo" hidden>
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-4 place-content-strench">
+                <div class="basis-2/3">
+                    <p class="intro">I started playing the game at the end of season 7, I wasn't playing regularly at the time but I tried out every lane and various characters. My final choice was the midlane, so I started tryhard and I think I've gained some experience in both micro and macro.</p>
+                </div>
+                <div class="basis-1/3">
+                    <img class="logo-rank" src="assets/images/Emblems_emerald.png" alt="logo emeraude" />
+                </div>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 items-center gap-4 pt-10">
+                <div class="">
+                    <img class="logo-mid" src="assets/images/midlane.png" alt="logo midlane" />
+                    <p class="role">Midlaner</p>
+                </div>
+                <div class="">
+                    <img id="logo-akali" src="assets/images/akali.jpg" alt="akali" />
+                    <p class="mastery">Akali</p>
+                </div>
+                <div class="">
+                    <img id="logo-ahri" src="assets/images/ahri.jpg" alt="ahri" />
+                    <p class="mastery">Ahri</p>
+                </div>
+                <div class="">
+                    <img id="logo-qiyi" src="assets/images/qiyana.jpeg" alt="qiyana" />
+                    <p class="mastery">Qiyana</p>
+                </div>
+            </div>
+        </div>
+        <div class="content-center" id="RLinfo" hidden>
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-4 place-content-strench">
+                <div class="basis-2/3">
+                    <p class="intro">I started playing Rocket League in 2021, tryhard about 1500 hours until I reached the top 2% worldwide in the 2v2 mode. I've had the opportunity to play in a few 2v2 tournaments organized by a student association at Lyon University, and in 1v1 with Nicecactus.</p>
+                </div>
+                <div class="basis-1/3">
+                    <img class="logo-rank rank-rl" src="assets/images/logo gc.png" alt="logo gc" />
+                </div>
+            </div>
+            <h2 class="pt-5">MY FAVORITES BATTLE CARS</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-4 items-center gap-4 pt-5">
+                <div class="">
+                    <img id="car1" src="assets/images/car1.png" alt="vandal champion 2023" />
+                </div>
+                <div class="">
+                    <img id="car2" src="assets/images/car2.png" alt="omen" />
+                </div>
+                <div class="">
+                    <img id="car3" src="assets/images/car3.png" alt="cypher" />
+                </div>
+                <div class="">
+                    <img id="car4" src="assets/images/car4.png" alt="fade" />
+                </div>
+            </div>
+        </div>
+        <div class="content-center" id="valorantinfo" hidden>
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-4 place-content-strench">
+                <div class="basis-2/3">
+                    <p class="intro">I started playing Valorant in 2023, and although FPS are not my strong point, I manage to have an average level. But I've had the opportunity to play a lot on the NA servers, which has enabled me to work on my English and discover a different atmosphere from the EU servers.</p>
+                </div>
+                <div class="basis-1/3">
+                    <img class="logo-rank rank-valo" src="assets/images/logo_gold.png" alt="logo gc" />
+                </div>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 items-center gap-4 pt-20">
+                <div class="">
+                    <img id="logo-vandal" src="assets/images/Valorant-Champions.png" alt="vandal champion 2023" />
+                    <p class="role">Favorite skin</p>
+                </div>
+                <div class="">
+                    <img id="logo-omen" src="assets/images/omen-valorant.jpg" alt="omen" />
+                    <p class="mastery">Omen</p>
+                </div>
+                <div class="">
+                    <img id="logo-cypher" src="assets/images/valorant-cypher.jpg" alt="cypher" />
+                    <p class="mastery">Cypher</p>
+                </div>
+                <div class="">
+                    <img id="logo-fade" src="assets/images/fade.png" alt="fade" />
+                    <p class="mastery">Fade</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-4" id="akaliinfo">
+            <div class="stats col-span-2 lg:col-span-1 flex flex-col items-center justify-around">
+                <h1>Akali</h1>
+                <div class="info-stat items-center">
+                    <p>Number of games</p>
+                    <div class="progress">
+                        <div class="progress-done1" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>CS</p>
+                    <div class="progress">
+                        <div class="progress-done2" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Micro</p>
+                    <div class="progress">
+                        <div class="progress-done3" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Macro</p>
+                    <div class="progress">
+                        <div class="progress-done4" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-span-2 lg:col-span-3">
+                <img class="akalifull" src="assets/images/akali-full.jpg" alt="akali" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" id="cross" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4" id="ahriinfo">
+            <div class="stats col-span-2 lg:col-span-1 flex flex-col items-center justify-around">
+                <h1>Ahri</h1>
+                <div class="info-stat items-center">
+                    <p>Number of games</p>
+                    <div class="progress">
+                        <div class="progress-done5" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>CS</p>
+                    <div class="progress">
+                        <div class="progress-done6" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Micro</p>
+                    <div class="progress">
+                        <div class="progress-done7" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Macro</p>
+                    <div class="progress">
+                        <div class="progress-done8" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-span-2 lg:col-span-3">
+                <img class="ahrifull" src="assets/images/ahri-full.jpg" alt="ahri" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" id="cross2" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4" id="qiyanainfo">
+            <div class="stats col-span-2 lg:col-span-1 flex flex-col items-center justify-around">
+                <h1>Qiyana</h1>
+                <div class="info-stat items-center">
+                    <p>Number of games</p>
+                    <div class="progress">
+                        <div class="progress-done9" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>CS</p>
+                    <div class="progress">
+                        <div class="progress-done10" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Micro</p>
+                    <div class="progress">
+                        <div class="progress-done11" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="info-stat">
+                    <p>Macro</p>
+                    <div class="progress">
+                        <div class="progress-done12" data-done="70">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-span-2 lg:col-span-3">
+                <img class="qiyanafull" src="assets/images/qiyana-full.jpg" alt="qiyana" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" id="cross3" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="" id="vandalinfo">
+            <img class="vandalfull" src="assets/images/vandal-background.jpg" alt="vandal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" id="cross4" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </div>
+        
+
+        </div>
+        <script src="assets/js/Script.js"></script>
+    </body>
+</html>
